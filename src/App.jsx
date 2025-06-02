@@ -7,7 +7,9 @@ function App() {
 
   // let counter = 5
   const addValue = () => {
-    setCounter(counter + 1)
+    if(counter < 100){
+      setCounter(counter + 1)
+    }
   }
 
   const substractValue = () => {
